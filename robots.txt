@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# 告知地图位置（请换成你的真实网址）
+Sitemap: https://liuliangka-12f.pages.dev/
