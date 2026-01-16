@@ -18,6 +18,16 @@
         .grid-item { background: #f8fafc; padding: 15px; border-radius: 8px; border: 1px solid #f1f5f9; }
         .back-nav { color: var(--pro-blue); text-decoration: none; font-weight: bold; margin-bottom: 20px; display: inline-block; }
         strong { color: var(--main-dark); }
+
+        /* ✅ 新增：移动端适配优化 */
+        @media (max-width: 640px) {
+            body { padding: 15px; }
+            .article-container { padding: 25px 15px; border-radius: 16px; }
+            h1 { font-size: 1.4em; margin-bottom: 25px; }
+            h2 { font-size: 1.2em; }
+            .grid-info { grid-template-columns: 1fr; gap: 12px; }
+            .highlight-box, .warning-box { padding: 15px; margin: 15px 0; font-size: 14px; }
+        }
     </style>
 </head>
 <body>
@@ -88,15 +98,27 @@
         </ul>
 
         <h2>七、 懂“竞合期”规律：库存与地域并非永恒</h2>
-        <p>号卡行业存在明显的“竞合期”现象。有些省份在特定时间段内因为当地运营商的政策调整（停止价格战或库存收缩），导致某些热门神卡暂时下架或无法发货，这在行业内是<strong>完全正常</strong>的。
+        <p>号卡行业存在明显的“竞合期”现象。有些省份在特定时间段内因为当地运营商的政策调整（停止价格战或库存收缩），导致某些热门神卡暂时下架或无法发货，这在行业内是完全正常的。
         </p>
         <div class="highlight-box">
-            <strong>专业建议：</strong> 如果你心仪的卡在你的区域无法办理，要么<strong>耐心等待</strong>下个季度的政策放开，要么<strong>当机立断</strong>在当前能办的套餐中选择性价比最高的一款。好产品不等人，犹豫不决往往会导致最后的选择越来越少。
+            <strong>专业建议：</strong> 如果你心仪的卡在你的区域无法办理，要么耐心等待下个季度的政策放开，要么当机立断在当前能办的套餐中选择性价比最高的一款。好产品不等人，犹豫不决往往会导致最后的选择越来越少。
         </div>
 
-        <p style="text-align: center; margin: 60px 0;">
+        <p style="text-align: center; margin: 40px 0; padding: 0 10px;">
             <strong>看准了再办，别让一张流量卡成了你的负担。</strong><br><br>
-            <a href="index.html" style="background: #1e293b; color: white; padding: 18px 60px; border-radius: 50px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">点击回到官方入口，选一张靠谱的长久卡 →</a>
+            <a href="index.html" style="
+                display: inline-block;
+                background: #1e293b; 
+                color: white; 
+                padding: 15px 30px; 
+                border-radius: 50px; 
+                text-decoration: none; 
+                font-weight: bold; 
+                box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+                line-height: 1.5;
+                max-width: 100%;
+                box-sizing: border-box;
+            ">点击回到官方入口，选一张靠谱的长久卡 →</a>
         </p>
     </article>
 
