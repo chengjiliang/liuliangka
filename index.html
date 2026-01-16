@@ -1,39 +1,674 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2026年超值大流量卡推荐 - 官方正版</title>
-    <meta name="description" content="提供最新中国移动、电信、联通大流量卡、校园卡申请，正规渠道，官方发卡。">
-    <style>
-        body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 20px; text-align: center; }
-        .container { max-width: 600px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        h1 { color: #333; }
-        .card { border: 1px solid #ddd; padding: 15px; margin: 15px 0; border-radius: 8px; transition: 0.3s; }
-        .card:hover { border-color: #ff6600; }
-        .card h2 { margin: 0; color: #ff6600; font-size: 1.2em; }
-        .card p { color: #666; font-size: 0.9em; }
-        .btn { display: inline-block; background: #ff6600; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; font-weight: bold; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+  <!-- ✅ 去平台化：title/keywords/description 不出现具体平台名 -->
+  <title>2026正规流量卡推荐_低月租大流量卡申请_多套餐对比办理入口</title>
+  <meta name="keywords" content="流量卡,大流量卡,低月租流量卡,正规流量卡,流量卡办理,流量卡推荐,电信流量卡,联通流量卡,移动流量卡,副卡" />
+  <meta name="description" content="正规流量卡申请入口，提供多套餐对比与办理指引。规则清晰可查，快递到家，具体以申请页与运营商规则为准。" />
+
+  <style>
+    :root{
+      --primary:#2563eb;
+      --accent:#f97316;
+      --bg:#f3f4f6;
+      --text:#111827;
+      --muted:#6b7280;
+      --card:#ffffff;
+      --shadow:0 10px 25px rgba(0,0,0,.08);
+      --radius:20px;
+    }
+    *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+    body{
+      margin:0;
+      font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+    a{color:inherit}
+    .wrap{max-width:560px;margin:0 auto;padding:0 16px}
+
+    /* ✅ Header：弧形过渡 + 底部留白 */
+    header{
+      position: relative;
+      overflow: hidden;
+      background:linear-gradient(135deg,#1e40af 0%,#3b82f6 100%);
+      color:#fff;
+      padding:64px 16px 92px;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+    header:before{
+      content:"";
+      position:absolute;
+      inset:-80px -80px auto auto;
+      width:220px;height:220px;
+      background:rgba(255,255,255,.10);
+      border-radius:999px;
+      transform:rotate(10deg);
+    }
+    header:after{
+      content:"";
+      position:absolute;
+      inset:0;
+      background:
+        radial-gradient(800px 240px at 18% 18%, rgba(255,255,255,.18), transparent 60%),
+        radial-gradient(600px 220px at 82% 12%, rgba(255,255,255,.12), transparent 60%);
+      pointer-events:none;
+    }
+    .header-wave{
+      position:absolute;
+      left:0; right:0; bottom:-1px;
+      width:100%;
+      height:52px;
+      display:block;
+    }
+
+    .tagline{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      background:rgba(255,255,255,.18);
+      padding:6px 12px;
+      border-radius:999px;
+      font-size:12px;
+      margin-bottom:10px;
+      position:relative;
+      z-index:1;
+    }
+    .tagline code{
+      font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+      font-size:12px;
+      opacity:.95;
+    }
+    h1{margin:6px 0 8px;font-size:24px;letter-spacing:.3px;position:relative;z-index:1}
+    .sub{margin:0;color:rgba(255,255,255,.92);font-size:14px;position:relative;z-index:1}
+
+    /* ✅ 卡片上浮更明显 */
+    .container{
+      margin-top:-62px;
+      padding-bottom:28px;
+    }
+
+    .card{
+      background:var(--card);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:22px;
+      margin-bottom:16px;
+    }
+
+    /* ✅ 首屏卡片更精致 */
+    .card.hero{
+      border:1px solid rgba(255,255,255,.75);
+      box-shadow:0 18px 44px rgba(0,0,0,.11);
+      padding-top:26px;
+    }
+
+    .hero-title{
+      margin:0 0 8px;
+      font-size:18px;
+      font-weight:900;
+      letter-spacing:.2px;
+    }
+    .hero-title::before{
+      content:"";
+      display:inline-block;
+      width:10px;height:10px;
+      border-radius:999px;
+      background:var(--accent);
+      margin-right:10px;
+      vertical-align:middle;
+      box-shadow:0 8px 18px rgba(249,115,22,.35);
+    }
+    .hero-desc{margin:0;color:var(--muted);font-size:13px}
+
+    .pill-row{
+      margin-top:12px;
+      display:flex;
+      gap:8px;
+      justify-content:flex-start;
+      flex-wrap:wrap;
+    }
+    .pill{
+      font-size:12px;
+      padding:6px 10px;
+      border-radius:999px;
+      background:#eff6ff;
+      color:#1d4ed8;
+      border:1px solid rgba(37,99,235,.15);
+      user-select:none;
+    }
+    .pill.orange{background:#fff7ed;color:#c2410c;border-color:rgba(249,115,22,.18)}
+    .pill.green{background:#ecfdf5;color:#047857;border-color:rgba(16,185,129,.18)}
+
+    .btn{
+      display:block;
+      width:100%;
+      text-align:center;
+      text-decoration:none;
+      padding:16px 14px;
+      border-radius:14px;
+      font-weight:800;
+      font-size:17px;
+      border:0;
+      cursor:pointer;
+      transition:transform .06s ease, filter .2s ease;
+      user-select:none;
+    }
+    .btn:active{transform:scale(.99)}
+    .btn.primary{
+      color:#fff;
+      background:linear-gradient(90deg,#f97316,#fb923c);
+      box-shadow:0 10px 22px rgba(249,115,22,.25);
+    }
+    .btn.ghost{
+      margin-top:10px;
+      background:#f9fafb;
+      color:#111827;
+      border:1px solid #e5e7eb;
+      font-weight:700;
+      font-size:14px;
+      padding:12px 14px;
+      border-radius:12px;
+    }
+    .note{
+      margin:10px 0 0;
+      font-size:12px;
+      color:#9ca3af;
+    }
+
+    .section-title{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      margin:18px 0 10px;
+      padding-left:10px;
+      border-left:4px solid var(--primary);
+      font-size:16px;
+    }
+
+    .grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .item{
+      background:#fff;
+      border-radius:14px;
+      padding:14px 14px;
+      box-shadow:0 2px 8px rgba(0,0,0,.04);
+      border:1px solid rgba(17,24,39,.06);
+      font-size:13px;
+    }
+    .item b{
+      display:block;
+      margin-bottom:6px;
+      color:#ef4444;
+      font-size:13px;
+    }
+
+    .steps{display:flex;flex-direction:column;gap:10px}
+    .step{
+      display:flex;gap:12px;align-items:flex-start;
+      padding:12px 12px;
+      border-radius:14px;
+      background:linear-gradient(180deg,#ffffff 0%,#fbfdff 100%);
+      border:1px solid rgba(37,99,235,.12);
+    }
+    .num{
+      width:28px;height:28px;border-radius:10px;
+      display:flex;align-items:center;justify-content:center;
+      background:#eff6ff;color:#1d4ed8;
+      font-weight:900;
+      flex:0 0 auto;
+    }
+    .step h4{margin:0 0 2px;font-size:14px}
+    .step p{margin:0;color:var(--muted);font-size:12px}
+
+    details{
+      background:#fff;
+      border-radius:16px;
+      border:1px solid rgba(17,24,39,.08);
+      padding:14px 14px;
+      box-shadow:0 2px 8px rgba(0,0,0,.03);
+    }
+    details + details{margin-top:10px}
+    summary{
+      cursor:pointer;
+      list-style:none;
+      font-weight:800;
+      font-size:14px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+    }
+    summary::-webkit-details-marker{display:none}
+    .chev{opacity:.5;font-size:12px}
+    .detail-body{margin-top:10px;color:#374151;font-size:13px}
+    .detail-body ul{margin:8px 0 0 18px;padding:0}
+    .detail-body li{margin:6px 0}
+    .detail-body p{margin:6px 0 0}
+
+    footer{
+      text-align:center;
+      color:#9ca3af;
+      font-size:12px;
+      padding:22px 0 30px;
+    }
+
+    /* Floating contact button */
+    #contactBtn{
+      position:fixed;
+      right:16px;
+      bottom:calc(22px + env(safe-area-inset-bottom));
+      width:56px;height:56px;
+      background:#fff;
+      border-radius:999px;
+      box-shadow:0 10px 22px rgba(0,0,0,.16);
+      display:flex;align-items:center;justify-content:center;
+      font-size:24px;
+      cursor:pointer;
+      border:none;
+      z-index:99;
+    }
+
+    /* Modal */
+    #modal{
+      display:none;
+      position:fixed;
+      inset:0;
+      background:rgba(0,0,0,.72);
+      z-index:2000;
+      align-items:center;
+      justify-content:center;
+      padding:18px;
+    }
+    .modal-content{
+      background:#fff;
+      width:100%;
+      max-width:360px;
+      border-radius:24px;
+      padding:26px 20px 20px;
+      text-align:center;
+      position:relative;
+      box-shadow:0 20px 60px rgba(0,0,0,.28);
+    }
+    .close{
+      position:absolute;top:12px;right:12px;
+      width:36px;height:36px;border-radius:999px;
+      border:1px solid #e5e7eb;
+      background:#fff;
+      cursor:pointer;
+      color:#6b7280;
+      font-size:20px;
+      display:flex;align-items:center;justify-content:center;
+    }
+    .avatar{
+      width:64px;height:64px;border-radius:50%;
+      object-fit:cover;
+      border:4px solid #f3f4f6;
+    }
+    .modal-title{margin:12px 0 6px;font-size:16px}
+    .modal-sub{margin:0;color:#6b7280;font-size:12px;line-height:1.5}
+    .qq{
+      margin:14px 0 8px;
+      font-size:22px;
+      font-weight:900;
+      color:var(--primary);
+      letter-spacing:.5px;
+    }
+    .modal-actions{
+      display:flex;gap:10px;margin-top:10px;
+    }
+    .modal-actions .btn{
+      padding:12px 12px;
+      font-size:14px;
+      border-radius:12px;
+      font-weight:900;
+    }
+    .btn.light{
+      background:#f9fafb;
+      border:1px solid #e5e7eb;
+      color:#111827;
+    }
+    .tiny{
+      margin-top:10px;
+      font-size:11px;
+      color:#9ca3af;
+    }
+  </style>
 </head>
+
 <body>
-    <div class="container">
-        <h1>🔥 2026 流量卡选购指南</h1>
-        <p>正规运营商直发 | 顺丰包邮 | 归属地可选</p>
-
-        <div class="card">
-            <h2>【172推荐】全能大卡</h2>
-            <p>月租：19元 | 流量：135G全国流量 | 通话：0.1元/分</p>
-            <a href="https://172.lot-ml.com/ProductEn/Index/c72581fd2669956c" class="btn">立即免费领卡</a>
-        </div>
-
-        <div class="card">
-            <h2>【号易推荐】长期神卡</h2>
-            <p>月租：29元 | 流量：150G不限速 | 长期套餐</p>
-            <a href="https://hy.yunhaoka.com/#/pages/micro_store/index?agent_id=58eacf5fad6966832210db56129c38e0" class="btn">立即免费领卡</a>
-        </div>
-
-        <p style="font-size: 12px; color: #999;">* 温馨提示：请按运营商要求实名激活，严禁从事非法用途。</p>
+  <header>
+    <div class="wrap">
+      <div class="tagline">合作渠道识别码：<code>58eacf5fad</code></div>
+      <h1>低月租大流量卡，1分钟选到适合你的套餐</h1>
+      <p class="sub">多套餐对比｜运营商APP可查｜快递到家</p>
     </div>
+
+    <!-- ✅ 弧形过渡 -->
+    <svg class="header-wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true">
+      <path fill="#f3f4f6" d="M0,40 C240,90 480,10 720,45 C960,80 1200,30 1440,55 L1440,80 L0,80 Z"></path>
+    </svg>
+  </header>
+
+  <main class="wrap container">
+    <!-- HERO -->
+    <section class="card hero">
+      <h2 class="hero-title">正规流量卡申请入口</h2>
+      <p class="hero-desc">多套餐可选 · 规则清晰可查 · 适合日常上网/备用副卡</p>
+
+      <div class="pill-row" aria-label="核心卖点">
+        <span class="pill">运营商APP可查</span>
+        <span class="pill orange">快递到家</span>
+        <span class="pill green">实名合规</span>
+      </div>
+
+      <a
+        id="mainCta"
+        href="https://hy.yunhaoka.com/#/pages/micro_store/index?agent_id=58eacf5fad6966832210db56129c38e0"
+        class="btn primary"
+        rel="noopener"
+      >立即进入选号店铺</a>
+
+      <button id="jumpGuide" class="btn ghost" type="button">我想先看选卡指南 / 避坑</button>
+
+      <p class="note">
+        温馨提示：套餐内容、首充、合约、发货地区限制等，以申请页与运营商规则为准。
+        <b style="color:#6b7280;">每个套餐的可发货地区不同，下单前请先看套餐详情「禁发地区/发货范围」说明。</b>
+        若链接打不开，点右下角💬复制QQ咨询。
+      </p>
+    </section>
+
+    <!-- 3 STEPS -->
+    <h3 class="section-title" id="guide">3步完成办理</h3>
+    <section class="card">
+      <div class="steps">
+        <div class="step">
+          <div class="num">1</div>
+          <div>
+            <h4>进入店铺 → 选择套餐</h4>
+            <p>按月租/流量/通话/长期或短期需求筛选，优先选择“规则清晰”的套餐。</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="num">2</div>
+          <div>
+            <h4>填写资料与收货地址</h4>
+            <p>地址务必精确到门牌号；信息不完整可能导致审核失败或无法派送。</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="num">3</div>
+          <div>
+            <h4>收卡后实名激活 → 官方查询</h4>
+            <p>按运营商流程实名激活，激活后可在官方APP查看话费与流量，透明可追溯。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MUST READ -->
+    <h3 class="section-title">号卡申请必读（避坑）</h3>
+    <div class="grid2">
+      <div class="item"><b>拒绝物联卡</b>物联卡多用于设备上网，常见不能通话/流量虚标。这里仅提供正规号卡申请入口。</div>
+      <div class="item"><b>地址要精确</b>填写到门牌号；收件人姓名/电话要准确，否则可能审核不过或派送失败。</div>
+      <div class="item"><b>官方APP可查</b>激活后可登录运营商官方APP查询话费流量（以实际套餐规则为准）。</div>
+      <div class="item"><b>实名制开卡</b>按国家要求实名激活；请勿用于违法用途，违规将被停机或追责。</div>
+    </div>
+
+    <!-- WHY TRUST -->
+    <h3 class="section-title">为什么更放心</h3>
+    <section class="card">
+      <div class="grid2">
+        <div class="item"><b>规则透明</b>办理前可在申请页查看套餐说明/首充/合约/禁发地区等信息。</div>
+        <div class="item"><b>可追踪物流</b>支持快递寄送到家（以申请页展示为准），过程可查询。</div>
+        <div class="item"><b>实名合规</b>按运营商要求实名激活，减少“灰卡/黑卡”风险。</div>
+        <div class="item"><b>客服协助</b>打不开链接/不会选套餐/填表问题，可复制QQ咨询协助。</div>
+      </div>
+      <p class="note" style="margin-top:12px;">
+        说明：本页为信息与跳转入口，不是运营商官网；具体资费与规则以申请页与运营商规则为准。
+      </p>
+    </section>
+
+    <!-- RISKS / DISCLAIMERS -->
+    <h3 class="section-title">重要提示（建议展开看）</h3>
+    <section class="card">
+      <details>
+        <summary>常见费用与规则项 <span class="chev">点击展开</span></summary>
+        <div class="detail-body">
+          <ul>
+            <li><b>首充要求：</b>部分套餐需要首充（金额/方式以申请页为准）。</li>
+            <li><b>合约期：</b>部分套餐存在合约或优惠期（到期后资费可能变化）。</li>
+            <li><b>归属地/随机：</b>号码归属地可能不可选或随机，下单前请看清规则。</li>
+            <li><b>禁发地区：</b>部分地区因政策/物流限制无法发货或需二次审核。</li>
+          </ul>
+        </div>
+      </details>
+
+      <!-- ✅ 新增：禁发区解释 + 地区判断路径 -->
+      <details>
+        <summary>禁发区/发货范围怎么理解？我这边能不能办？ <span class="chev">点击展开</span></summary>
+        <div class="detail-body">
+          <ul>
+            <li><b>禁发区</b>：指该套餐在部分省/市/区县暂不支持发货或需要更严格审核。</li>
+            <li><b>为什么会限制</b>：运营商政策、实名风控、当地渠道规则、物流限制等，可能随时间调整。</li>
+            <li><b>关键点</b>：同一运营商不同套餐的禁发范围可能不同，不能用固定省份名单判断。</li>
+            <li><b>最快判断</b>：进入店铺 → 点进某个套餐详情 → 查看「发货范围/禁发地区」说明；若填写地址时提示不支持，换一款套餐通常就可以。</li>
+          </ul>
+          <p class="note" style="margin:8px 0 0;">
+            提示：可办理地区可能随政策/库存/风控实时变化，以套餐详情与系统提示为准。
+          </p>
+        </div>
+      </details>
+
+      <details>
+        <summary>如何判断是不是“正规可查” <span class="chev">点击展开</span></summary>
+        <div class="detail-body">
+          <ul>
+            <li>激活后可在运营商官方APP查看号码状态、套餐与用量（以运营商系统为准）。</li>
+            <li>按实名流程完成激活，避免来源不明卡片带来的封停风险。</li>
+            <li>页面展示有清晰套餐说明、费用项、限制项与售后方式的，通常更可靠。</li>
+          </ul>
+        </div>
+      </details>
+    </section>
+
+    <!-- FAQ（扩充：禁发区含义 + 申请地区说明 + 更多常见问题） -->
+    <h3 class="section-title">常见问题 FAQ</h3>
+    <section class="card">
+
+      <details open>
+        <summary>Q1：这是物联卡吗？能打电话吗？ <span class="chev">收起/展开</span></summary>
+        <div class="detail-body">
+          非物联卡。一般正规号卡可通话/短信/上网，具体能力与套餐内容以申请页展示为准。
+        </div>
+      </details>
+
+      <details>
+        <summary>Q2：「禁发区」是什么意思？为什么会限制？ <span class="chev">点击展开</span></summary>
+        <div class="detail-body">
+          <p><b>禁发区</b>指该套餐在部分省份/城市/区县暂不支持发货或需要更严格审核。</p>
+          <ul>
+            <li><b>常见原因：</b>运营商政策、实名风控、当地渠道规则、物流限制等（会随时间调整）。</li>
+            <li><b>你的操作：</b>下单前先看套餐详情里的「可发货地区/禁发地区」说明；如命中禁发区，建议更换同价位其他套餐。</li>
+            <li><b>注意：</b>同一运营商不同套餐的禁发范围也可能不同，务必以“你选择的那一款套餐详情”为准。</li>
+          </ul>
+        </div>
+      </details>
+
+      <details>
+        <summary>Q3：哪些省/哪些地区能申请？我这里能不能办？ <span class="chev">点击展开</span></summary>
+        <div class="detail-body">
+          <p>申请地区范围是<b>按套餐逐个区分</b>的，不能用“固定省份名单”一概而论。</p>
+          <ul>
+            <li><b>最快判断方式：</b>进入店铺 → 点进某个套餐详情 → 查看「发货范围/禁发地区」说明。</li>
+            <li><b>填写地址时提示无法提交：</b>通常说明该套餐对该地区不支持，换一款套餐一般就能解决。</li>
+            <li><b>想省时间：</b>先挑 2~3 个合适套餐，分别看详情的禁发说明，再决定下单。</li>
+          </ul>
+          <p class="note" style="margin:8px 0 0;">
+            说明：可办理地区可能随政策/库存/风控实时变化，以套餐详情与系统提示为准。
+          </p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Q4：套餐是长期的吗？会不会涨价？ <span class="chev">点击展开</span></summary>
+        <div class="detail-body">
+          有的套餐是“长期资费”，有的是“优惠期/合约期”。到期后资费可能变化，务必在申请页查看
+          <b>优惠期时长、到期资费、合约说明</b>。
+        </div>
+      </details>
+
+      <details>
+        <summary>Q5：需要首充吗？首充多少？ <span class="chev">点击展开</span></summary>
+        <div class="detail-body">
+          取决于具体套餐。部分需要首充以享受优惠（例如激活当月返费/赠费/赠流量），金额与方式以申请页为准；
+          不确定可先咨询客服。
+        </div>
+      </details>
+
+      <details>
+        <summary>Q6：提交资料后多久到账/多久发货？ <span class="chev">点击展开</span></summary>
+        <div class="detail-body">
+          发货时效以套餐页或下单页提示为准。一般流程是：提交资料审核 → 审核通过发货 → 快递派送到家。
+          如遇节假日/风控审核，时效可能延长。
+        </div>
+      </details>
+
+      <details>
+        <summary>Q7：下单填写地址有什么要求？ <span class="chev">点击展开</span></summary>
+        <div class="detail-body">
+          必须精确到门牌号，收件人姓名/电话保持一致。地址不完整可能导致审核失败或无法派送。
+          建议使用常住地址，避免写单位/驿站导致派送或签收异常。
+        </div>
+      </details>
+
+      <details>
+        <summary>Q8：号码归属地可以选吗？ <span class="chev">点击展开</span></summary>
+        <div class="detail-body">
+          部分套餐支持选号/部分仅随机下发，归属地规则以套餐详情为准。若你对归属地有硬性要求，
+          请优先选择明确标注“可选号/可选归属地”的套餐。
+        </div>
+      </details>
+
+      <details>
+        <summary>Q9：激活后怎么查询话费/流量？ <span class="chev">点击展开</span></summary>
+        <div class="detail-body">
+          按运营商流程实名激活后，可在对应运营商官方APP查询号码、套餐与用量（以运营商系统为准）。
+        </div>
+      </details>
+
+      <details>
+        <summary>Q10：一个人能办几张？需要什么证件？ <span class="chev">点击展开</span></summary>
+        <div class="detail-body">
+          一般需要本人实名信息（身份证等），同一证件可办理数量会受运营商实名规则与风控限制影响，
+          不同套餐/地区可能不同。以系统提示为准。
+        </div>
+      </details>
+
+      <details>
+        <summary>Q11：不想要了能退吗？ <span class="chev">点击展开</span></summary>
+        <div class="detail-body">
+          是否可退/退换规则与时效以申请页或平台规则为准。通常“未拆封未激活”更容易处理；
+          一旦实名激活或产生使用记录，退换可能受限。下单前建议先看清规则说明。
+        </div>
+      </details>
+
+      <details>
+        <summary>Q12：链接打不开怎么办？ <span class="chev">点击展开</span></summary>
+        <div class="detail-body">
+          可点击右下角💬复制QQ联系协助；也可以切换网络/浏览器（建议系统浏览器）再试。
+        </div>
+      </details>
+
+    </section>
+
+    <footer>
+      <div>© 2026 流量卡信息与申请入口页｜请理性选择套餐，遵守实名合规使用</div>
+    </footer>
+  </main>
+
+  <!-- Floating contact -->
+  <button id="contactBtn" aria-label="联系客服">💬</button>
+
+  <!-- Modal -->
+  <div id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-content">
+      <button class="close" id="close" aria-label="关闭弹窗">×</button>
+      <img class="avatar" src="https://q4.qlogo.cn/g?b=qq&nk=346741501&s=140" alt="客服头像">
+      <h3 class="modal-title" id="modalTitle">选卡/下单遇到问题？我帮你避坑</h3>
+      <p class="modal-sub">不加群｜不收定金｜不卖物联卡<br>打不开链接/不知道怎么选，可复制QQ咨询</p>
+      <div class="qq" id="qq">346741501</div>
+
+      <div class="modal-actions">
+        <button class="btn light" type="button" onclick="copyQQ()">复制QQ</button>
+        <a class="btn primary" style="padding:12px 12px"
+           href="https://hy.yunhaoka.com/#/pages/micro_store/index?agent_id=58eacf5fad6966832210db56129c38e0"
+           rel="noopener">打开店铺</a>
+      </div>
+
+      <div class="tiny">提示：具体资费/首充/合约/限制以申请页为准</div>
+    </div>
+  </div>
+
+  <script>
+    const modal = document.getElementById("modal");
+    const contactBtn = document.getElementById("contactBtn");
+    const closeBtn = document.getElementById("close");
+    const jumpGuide = document.getElementById("jumpGuide");
+    const mainCta = document.getElementById("mainCta");
+
+    function openModal(){
+      modal.style.display = "flex";
+      try { console.log("[track] modal_open"); } catch(e){}
+    }
+    function closeModal(){
+      modal.style.display = "none";
+    }
+
+    contactBtn.addEventListener("click", openModal);
+    closeBtn.addEventListener("click", closeModal);
+    modal.addEventListener("click", (e) => { if(e.target === modal) closeModal(); });
+
+    document.addEventListener("keydown", (e) => {
+      if(e.key === "Escape" && modal.style.display === "flex") closeModal();
+    });
+
+    jumpGuide.addEventListener("click", () => {
+      document.getElementById("guide").scrollIntoView({behavior:"smooth", block:"start"});
+      try { console.log("[track] jump_guide"); } catch(e){}
+    });
+
+    mainCta.addEventListener("click", () => {
+      try { console.log("[track] click_main_cta"); } catch(e){}
+    });
+
+    function copyQQ() {
+      const q = document.getElementById("qq").innerText.trim();
+      const btn = document.querySelector(".modal-actions .btn.light");
+      if(!navigator.clipboard){
+        const ta = document.createElement("textarea");
+        ta.value = q;
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand("copy");
+        document.body.removeChild(ta);
+        btn.innerText = "✅ 已复制";
+        setTimeout(() => btn.innerText = "复制QQ", 1800);
+        return;
+      }
+      navigator.clipboard.writeText(q).then(() => {
+        btn.innerText = "✅ 已复制";
+        setTimeout(() => btn.innerText = "复制QQ", 1800);
+      }).catch(() => {
+        btn.innerText = "复制失败";
+        setTimeout(() => btn.innerText = "复制QQ", 1800);
+      });
+    }
+    window.copyQQ = copyQQ;
+  </script>
 </body>
 </html>
